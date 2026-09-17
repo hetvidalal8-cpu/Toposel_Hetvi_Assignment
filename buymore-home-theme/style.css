@@ -1,0 +1,35 @@
+/*
+Theme Name: BuyMore Home
+Theme URI: https://example.com/buymore-home
+Description: A lightweight homepage theme for the BuyMore Explore Dashboard plugin.
+Version: 1.0.0
+Requires at least: 6.0
+Requires PHP: 7.4
+Text Domain: buymore-home
+*/
+
+:root {
+	color-scheme: light;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+html,
+body {
+	margin: 0;
+	min-height: 100%;
+	background: #f7f7f5;
+	color: #16181d;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.buymore-home-message {
+	max-width: 720px;
+	margin: 5rem auto;
+	padding: 2rem;
+	border-radius: 16px;
+	background: #ffffff;
+	box-shadow: 0 12px 40px rgba(22, 24, 29, 0.08);
+}
