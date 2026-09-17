@@ -1,0 +1,42 @@
+/* Admin styles for the BuyMore meta boxes and settings page. */
+
+.buymore-fields {
+	display: grid;
+	gap: 16px;
+	grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+	padding: 4px 0;
+}
+
+.buymore-field {
+	display: grid;
+	gap: 5px;
+	margin: 0;
+}
+
+.buymore-field input[type="text"],
+.buymore-field input[type="url"],
+.buymore-field input[type="number"],
+.buymore-field select {
+	max-width: 100%;
+}
+
+.buymore-field--color {
+	align-content: start;
+}
+
+.buymore-field--color input[type="color"] {
+	width: 48px;
+	height: 30px;
+	padding: 2px;
+	vertical-align: middle;
+}
+
+.buymore-help {
+	color: #646970;
+	font-size: 12px;
+	font-style: normal;
+}
+
+.buymore-settings__hint code {
+	font-size: 13px;
+}
