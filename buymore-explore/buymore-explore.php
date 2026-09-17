@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name:       BuyMore Explore Dashboard
- * Plugin URI:       https://github.com/hetvidalal8-cpu/Hetvi-Assessment1/tree/main/buymore-explore
+ * Plugin URI:        https://github.com/hetvidalal8-cpu/Toposel_Hetvi_Assignment/edit/main/buymore-explore
  * Description:       Renders the BuyMore "Explore" commerce dashboard as a fully responsive, CMS-driven page. Built with plain PHP, HTML, CSS and JavaScript — no page builder.
  * Version:           1.0.0
  * Requires at least: 6.0
